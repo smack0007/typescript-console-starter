@@ -1,21 +1,30 @@
 # typescript-console-app
-> A starter template for [`TypeScript`](https://www.typescriptlang.org/) console apps running on [`Node.js`](https://nodejs.org/en/).
 
-I created this project to have a simple starter template for writing console apps in [`TypeScript`](https://www.typescriptlang.org/).
+> A starter template for [`TypeScript`](https://www.typescriptlang.org/) console apps running on [`Node.js`](https://nodejs.org/en/).
 
 ## Getting Started
 
 ```bash
-git clone https://github.com/smack0007/typescript-console-starter.git
-cd typescript-console-starter
+# clone the repo
+git clone https://github.com/smack0007/typescript-console-starter.git my-project
+cd my-project
 
-rm -rf .git
+# remove git history
+rm -rf .git # or 'rmdir /S /Q .git' on Windows
 
 # install dependencies
 yarn
-```
 
-### Development Scripts
+# start developing
+yarn dev
+```
+## Includes
+
+* [TypeScript](https://www.typescriptlang.org/)
+* [tsc-watch](https://github.com/gilamran/tsc-watch)
+* [@types/nodes](https://www.npmjs.com/package/@types/node)
+
+## Scripts
 
 ```bash
 # compile source code
@@ -24,3 +33,4 @@ yarn compile
 # run application in development mode
 yarn dev
 ```
+
