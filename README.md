@@ -22,6 +22,7 @@ yarn dev
 
 * [TypeScript](https://www.typescriptlang.org/)
 * [tsc-watch](https://github.com/gilamran/tsc-watch)
+* [tslint](https://palantir.github.io/tslint)
 * [@types/nodes](https://www.npmjs.com/package/@types/node)
 
 ## Scripts
@@ -32,5 +33,8 @@ yarn compile
 
 # run application in development mode
 yarn dev
+
+# lint the application
+yarn lint
 ```
 
